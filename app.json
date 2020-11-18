@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/photo/photo", 
+    "pages/mine/mine",
+    "pages/more/more",
+    "pages/logs/logs",
+    "pages/demo01/demo01"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText":"怪咖的小程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/_home.png"
+    },{
+      "pagePath": "pages/photo/photo",
+      "text": "图库",
+      "iconPath": "icon/photo.png",
+      "selectedIconPath": "icon/_photo.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "个人中心",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/_user.png"
+    },{
+      "pagePath": "pages/more/more",
+      "text": "更多",
+      "iconPath": "icon/more.png",
+      "selectedIconPath": "icon/more.png"
+    }
+  ],
+  "backgroundColor": "#A9ACB8",
+  "color": "#000000",
+  "selectedColor": "#ffffff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+
+}
